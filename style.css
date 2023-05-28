@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: rgb(255,255,255);
+    --Black: rgb(0,0,0);
+    --Light-Pink: rgb(255, 182,193);
+}
+
+body {
+    background-color: var(--Light-Pink);
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    padding-bottom: 120px;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: var(--Black);
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: var(--White);
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: var(--Black) !important;
+    background-color: var(--White) !important;
+}
+
+.navbar li a, .navbar .navbar-brand{
+    color: var(--White) !important;
+}
+
+.main {
+    margin-top: 40px;
+    margin-inline: 20px 20px;
+    padding-inline: 100px;
+}
+
+.footer-page {
+    position: absolute;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: var(--Black);
+    color: var(--White) !important;
+}
+
+#links {
+    color: var(--White) !important;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.icons {
+    padding-right: 20px;
+    letter-spacing: 4px;
+    float: right;
+    text-align: center;
+}
